@@ -1,14 +1,14 @@
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 
-import App from './app';
+import BigApp from './app';
 
 const root = createRoot(document.getElementById('root'));
 
 // Entry point
 root.render(
   <StrictMode>
-    <App />
+    <BigApp />
   </StrictMode>,
 );
 

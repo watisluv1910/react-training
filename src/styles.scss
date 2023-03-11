@@ -20,12 +20,12 @@
     background-color: rgb(255, 121, 121);
     border-radius: 0.5rem;
     opacity: 0.8;
-	color: inherit;
-	border: none;
-	padding: 0.5rem;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0.5rem;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     transition: 0.4s;
     font-size: 1.5rem;
 
@@ -36,4 +36,8 @@
 
 body {
     margin: 0;
+}
+
+.red {
+    color: red;
 }
