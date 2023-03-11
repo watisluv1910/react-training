@@ -2,11 +2,6 @@ import React from 'react';
 import styles from './styles.scss';
 
 
-// const onClickEvent = (e) => {
-//     e.preventDefault();
-//     alert('You Clicked The Test Button');
-// };
-
 const App = () => {
     return (
         <p>Component App</p>
@@ -14,6 +9,7 @@ const App = () => {
 };
 
 const News = () => {
+    startTicking();
     return <p>К сожалению, новостей нет</p>;
 };
 
@@ -21,8 +17,11 @@ const News = () => {
 /**
  * Represents a BigApp component.
  */
-// eslint-disable-next-line no-unused-vars
 class BigApp extends React.Component {
+    /**
+     * Renders a component
+     * @return { Component }
+     */
     render() {
         return (
             <React.Fragment>
